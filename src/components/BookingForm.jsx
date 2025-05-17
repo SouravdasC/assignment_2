@@ -131,7 +131,7 @@ const BookingForm = ({ onSubmit, isLoading }) => {
             value={formData.name}
             onChange={handleChange}
             className={`w-full px-4 py-3 bg-zinc-700 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 transition-all ${errors.name ? "border border-red-500" : ""}`}
-            placeholder="John Doe"
+            placeholder="John Do"
           />
           {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
         </div>
@@ -152,7 +152,7 @@ const BookingForm = ({ onSubmit, isLoading }) => {
               value={formData.mobile}
               onChange={handleChange}
               className={`flex-1 px-4 py-3 bg-zinc-700 focus:outline-none focus:ring-2 focus:ring-red-500 transition-all ${errors.mobile ? "border border-red-500" : ""} ${otpVerified ? "border-green-500" : ""}`}
-              placeholder="9876543210"
+              placeholder="123456789"
               maxLength={10}
               disabled={otpVerified}
             />

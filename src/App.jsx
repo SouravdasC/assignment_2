@@ -72,7 +72,7 @@ function App() {
           className="text-center"
         >
           <motion.img
-            src="/images/royal-enfield-logo.png"
+            src="https://logos-download.com/wp-content/uploads/2019/06/Royal_Enfield_Logo_full-3000x3000.png"
             alt="Royal Enfield Logo"
             className="w-32 mx-auto mb-4"
             initial={{ opacity: 0, y: -20 }}
@@ -112,7 +112,7 @@ function App() {
           style={{ opacity, scale }}
           className="relative flex flex-col justify-center items-center p-6 lg:p-12"
         >
-          <ParallaxMotorcycle imageUrl="/images/hunter-350.png" />
+          <ParallaxMotorcycle imageUrl="https://gumlet.assettype.com/evoindia/2024-01/2808d83a-0df5-4a3e-982a-19c5d4c9e273/Hunter_350___Dapper_O__Orange__2.jpg" />
           <FloatingSpecs />
 
           <motion.div

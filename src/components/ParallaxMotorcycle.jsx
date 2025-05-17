@@ -125,7 +125,7 @@ const ParallaxMotorcycle = ({ imageUrl }) => {
         <motion.img
           src={imageUrl}
           alt="Royal Enfield Hunter 350"
-          className="w-full max-w-2xl object-contain mx-auto"
+          className="w-full max-w-2xl object-contain mx-auto h-[60vh]"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}

@@ -72,11 +72,11 @@ const Navbar = () => {
             transition={{ duration: 0.5 }}
             className="flex items-center"
           >
-            <img src="/images/royal-enfield-logo.png" alt="Royal Enfield" className="h-10" />
+            <img src="https://logos-download.com/wp-content/uploads/2019/06/Royal_Enfield_Logo_full-3000x3000.png" alt="Royal Enfield" className="h-10" />
           </motion.a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center md:space-x-4 lg:space-x-8">
             {navLinks.map((link, index) => (
               <motion.a
                 key={link.name}
@@ -116,7 +116,7 @@ const Navbar = () => {
             transition={{ duration: 0.5 }}
           >
             <span className="sr-only">Open menu</span>
-            <div className="w-6 flex flex-col items-end justify-center">
+            <div className="w-6 flex flex-col items-end justify-center relative z-[99]">
               <span
                 className={`block h-0.5 bg-white transition-all duration-300 ease-out ${isOpen ? "w-6 -rotate-45 translate-y-1" : "w-6"
                   }`}

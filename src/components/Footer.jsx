@@ -1,12 +1,14 @@
 "use client"
 
+import { Link } from "react-router-dom"
+
 const Footer = () => {
   return (
     <footer className="bg-black text-zinc-400 py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <img src="/images/royal-enfield-logo.png" alt="Royal Enfield Logo" className="h-12 mb-4" />
+            <img src="https://logos-download.com/wp-content/uploads/2019/06/Royal_Enfield_Logo_full-3000x3000.png" alt="Royal Enfield Logo" className="h-12 mb-4" />
             <p className="text-sm">Royal Enfield - The oldest motorcycle brand in continuous production, since 1901.</p>
             <div className="flex space-x-4 mt-4">
               <a href="#" className="text-zinc-400 hover:text-white transition duration-300">
@@ -72,34 +74,34 @@ const Footer = () => {
             <h3 className="text-white font-semibold mb-4">Support</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="hover:text-white transition duration-300">
+                <Link to="#" className="hover:text-white transition duration-300">
                   FAQs
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition duration-300">
+                <Link to="#" className="hover:text-white transition duration-300">
                   Warranty
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition duration-300">
+                <Link to="#" className="hover:text-white transition duration-300">
                   Roadside Assistance
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition duration-300">
+                <Link to="#" className="hover:text-white transition duration-300">
                   Owner's Manual
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition duration-300">
+                <Link to="#" className="hover:text-white transition duration-300">
                   Service Schedule
-                </a>
+              </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition duration-300">
+                <Link to="#" className="hover:text-white transition duration-300">
                   Careers
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -128,7 +130,7 @@ const Footer = () => {
                     d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
-                <span>Royal Enfield Headquarters, #5 & 6, Shanti Nagar, Chennai - 600028</span>
+                <span>Royal Enfield Headquarters, #duumy, duumy - 123456</span>
               </li>
               <li className="flex items-center">
                 <svg

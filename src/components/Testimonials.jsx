@@ -9,7 +9,7 @@ const testimonials = [
     name: "Rahul Sharma",
     location: "Mumbai",
     quote: "The Hunter 350 is the perfect bike for city riding. Nimble, powerful, and turns heads wherever I go!",
-    image: "/images/testimonial-1.jpg",
+    image: "https://avatars.githubusercontent.com/u/30511472?v=4",
     rating: 5,
   },
   {
@@ -18,7 +18,7 @@ const testimonials = [
     location: "Bangalore",
     quote:
       "As a female rider, I was looking for something manageable but with character. The Hunter 350 delivers on both fronts.",
-    image: "/images/testimonial-2.jpg",
+    image: "https://avatars.githubusercontent.com/u/30511472?v=4",
     rating: 4,
   },
   {
@@ -27,7 +27,7 @@ const testimonials = [
     location: "Delhi",
     quote:
       "The retro styling combined with modern features makes this bike a standout in its segment. Highly recommended!",
-    image: "/images/testimonial-3.jpg",
+    image: "https://avatars.githubusercontent.com/u/30511472?v=4",
     rating: 5,
   },
 ]
